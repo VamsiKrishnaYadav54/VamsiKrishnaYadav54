@@ -13,8 +13,6 @@
 
 I'm an MS/research student at **IIT Bombay** (ISRDC Lab), advised by **Prof. Virendra Singh**, working at the intersection of **mechanistic interpretability** and **transformer model analysis**. My research asks: *what are neural networks actually doing internally, and can we use that knowledge to prune, steer, and understand them?*
 
-I'm also associated with **IISER Bhopal** in multiple campus roles.
-
 ---
 
 ## Research Focus
@@ -27,47 +25,6 @@ I work on understanding transformer internals — particularly attention heads �
 - 📐 **Baseline hierarchy:** weight magnitude (zero-cost) → Michel et al. 2019 (first-order) → Kwon et al. 2022 (diagonal Fisher) — showing the Squisher matches second-order methods at near-zero cost.
 - 🧩 **R&D1:** Studied information over-squashing and representational collapse in decoder-only transformers. Trained models on binary digit counting tasks; found depth strongly influences counting ability, and learned positional embeddings form smooth ribbon-like diagonal patterns convergent across architectures.
 
----
 
-## Current Projects
-
-| Project | Status | Description |
-|---|---|---|
-| **HeadRecycle P1.6** | 🟡 Active | OWT ablation studies across 5 model families; LLaMA DGX runs pending |
-| **Squisher vs. Kwon** | 🔬 Analysis | Comparing diagonal Fisher proxies: empirical vs. standard |
-| **CS899 Seminar** | ✅ Done | 5-min talk on mech. interp.: Elhage 2021 → Lindsey 2025 (CLTs, SAEs, Claude biology) |
-| **CS728 PA3** | ✅ Done | Retrieval heads, BM25, LLM-based retrieval; best Recall@1 = 0.3494 |
-
----
-
-## Skills & Stack
-
-**Research**
-`Mechanistic Interpretability` `Attention Head Pruning` `Fisher Information` `Transformer Internals` `Ablation Studies`
-
-**ML / Deep Learning**
-`PyTorch` `Transformers (HuggingFace)` `GPT-2` `LLaMA` `Pythia` `Qwen`
-
-**Infrastructure**
-`SLURM` `HPC Clusters` `CUDA` `conda` `A40 / DGX GPUs`
-
-**Languages & Tools**
-`Python` `Bash` `Git` `LaTeX`
-
----
-
-## Selected Findings
-
-- `geometric_raw_balanced` tops AUC on **OpenWebText** while `combined_raw_balanced` leads on **WikiText** — suggesting scoring method sensitivity to dataset distribution, a potential dataset-generalization argument for the Squisher.
-- Positional embeddings in counting-task transformers form **smooth ribbon-like diagonal patterns** that converge across architectures — consistent with over-squashing theory (Barbero et al., NeurIPS 2024).
-- Tokenization is **not** the bottleneck for transformer counting failures; depth is.
-
----
-
-## Reading List / Influences
-
-Elhage et al. 2021 · Michel et al. 2019 · Kwon et al. 2022 · Barbero et al. NeurIPS 2024 · Lindsey et al. 2025 · SAE / Transcoder literature · CLT (Cross-Layer Transcoders)
-
----
 
 <p align="center"><i>"Opening the black box, one attention head at a time."</i></p>
